@@ -1,0 +1,209 @@
+:root{
+    --whiteColor:white;
+}
+.packge{
+    position: relative;
+    top: 17px;    
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(8, 170px);
+
+    grid-template-rows: repeat(5, 112px);
+    border:transparent;
+}
+.div-one{
+  
+    background-color: #8a2be2b0;
+    border-radius: 6px;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    /* overflow: hidden; */
+    white-space: wrap;
+    overflow: hidden;
+    padding-right: 6px;
+   
+
+}
+.div-tow{
+    background-color: #39393aed;
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
+    margin-left: 10px;
+    border-radius: 6px;
+    width: 390px;
+
+
+}
+.div-three{
+    padding: 21px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #878181eb;
+    grid-column: 6 / 8;
+    grid-row: 1 / 7;
+    margin-left: 15px;
+    width: 286px;
+    transform: translate(55px, 0px);
+    border-radius: 6px;
+
+}
+.div-four{
+    grid-column: 1 / 3;
+    border: 1px solid black;
+    border-color: transparent;
+    grid-row: 3 / 7;
+    margin: 10px 10px 0px 0px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #878181eb;
+}
+
+.div-five{
+  
+    grid-column: 3 / 6;
+    background-color: #1f1f1fe0;
+    grid-row: 3 / 7;
+    margin: 10px 5px 0px 5px;
+    width: 556px;
+
+}
+.div-in-one{
+    transform: translate(79px, -20px);
+    border: transparent;
+    width: 116px;
+    height: 19%;
+    border-radius: inherit;
+    font-size: 13px;
+    color: var('whiteColor');
+    
+}
+
+.div-one div[title='image']{
+    transform: translate(24px, 14px);
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('/css/image-daniel.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.div-one h4{
+    margin-left: 27px;
+    transform: translate(10px, -27px);
+    color: var(--whiteColor);
+
+}
+.div-one p{
+    transform: translate(10px, -39px);
+    font-size: 13px;
+
+    opacity: .4;
+    color: var(--whiteColor);
+}
+
+.div-tow div:first-child{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(31px, 24px);
+    background-image: url('/css/image-jonathan.jpg');
+    background-size: 100%;
+
+
+}
+.div-in-tow{
+    width: 111px;
+    font-size: 10px;
+    transform: translate(85px, -17px);
+    color: white;
+}
+.div-in-tow + h4{
+    margin: 0px 50px;
+    width: 165px;
+    color: white;
+}
+.div-tow p{
+    margin-top: 8px;
+    color: var(--whiteColor);
+    margin-left: 22px;
+    opacity: .4;
+}
+.div-three div:first-child{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('/css/image-kira.jpg');
+    transform: translate(40px, 25px);
+    background-size: 100%;
+}
+.div-in-three{
+    width: 100px;
+    transform: translate(90px, -8px);
+    font-size: 13px;
+}
+.div-three h4{
+    width: 150px;
+    text-align: center;
+    transform: translate(25%, 21%);
+}
+.div-three p{
+    white-space: wrap;
+}
+
+.div-four div:first-child{
+    background-image: url('/css/image-jeanette.jpg');
+    background-size: 100%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(30px, 25px);
+}
+.div-in-four{
+    width: 150px;
+    /* text-align: center; */
+    transform: translate(56%, -7px);
+
+}
+.div-four h4{
+    width: 173px;
+    padding-left: 33px
+}
+.div-four p{
+    width: 262px;
+    margin-left: 31px;
+    opacity: .4;
+}
+.div-five div:first-child{
+    background-image: url('/css/image-patrick.jpg');
+    background-size: 100%;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(30px, 23px);
+
+
+}
+.div-in-five{
+    width: 150px;
+    transform: translate(55%, -12px);
+    color: var(--whiteColor);
+
+}
+.div-five h4{
+    white-space: wrap;
+    /* margin-left: 7px; */
+    padding-left: 20px;
+    padding-right: 13px;
+    color:var(--whiteColor)    
+}
+
+.div-five p{
+    white-space: wrap;
+    color: var(--whiteColor);
+    opacity: .4;
+
+} 
