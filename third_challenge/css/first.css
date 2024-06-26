@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.profile{
+    border: 1px solid black ;
+    height: 70%;
+    width: 25%;
+    border-radius: 13px;
+    height: 100%;
+    z-index: 1000;
+    background-color: #363434b8;
+}
+.keep-image{
+    border:1px solid black;
+    border-color: transparent;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url('/css/avatar-jessica.jpeg');
+    background-size: 100%;
+}
+.string{
+    text-align: center;
+
+}
+/* .div-one{
+    width: 100%;
+
+} */
+button{
+    margin: 0px 0px 15px 40px;
+    width: 80%;
+    padding: 10px ;
+    border-radius: 10px;
+    outline: transparent;
+    background-color: #000000ab;
+    color: white;
+    font-weight:bold;
+}
+
+
+button:hover{
+    background-color: greenyellow;
+
+}
