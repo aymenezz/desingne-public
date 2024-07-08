@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+
+}
+.main{
+    display: grid;
+    border: 1px solid transparent;
+    width: 580px;
+    height: 400px;
+    grid-template-columns: repeat(2, 50%);
+    background-color: white;
+}
+.image{
+    grid-column: 1;
+    background-image: url('/css/image/image-product-desktop.jpg');
+    background-size: 100%;
+}
+.right h3:first-of-type{
+   letter-spacing: 5px;
+   margin-left: 40px;
+   opacity: .4;
+}
+.right h2:first-child{
+    padding: 5px 103px 5px 26px;
+    text-wrap: wrap;
+}
+.right p:first-of-type{
+    padding: 5px 55px 5px 27px;
+    opacity: .5;
+}
+.salery{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 284px;
+    border-color: transparent;
+
+}
+.salery h2:first-of-type{
+   color: hsl(158, 36%, 37%);
+   width: 0px;
+}
+.salery span:first-of-type{
+    margin-top: 28px;
+    color: hsl(228, 12%, 48%);
+}
+button{
+    width: 80%;
+    /* padding-top: 20px; */
+    /* text-align: center; */
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:1px solid white;
+    cursor: pointer;
+    background-color: hwb(158 21% 35%);
+
+}

@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/css/image/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    
+
+
+}
+.main{
+    display: grid;
+    border: 1px solid black;
+    width: 37%;
+    height: 100%;
+    grid-template-rows: 34%;
+    z-index: 1000;
+    background-color: white;
+    border-color: transparent;
+}
+.image{
+    grid-row: 1;
+    background-image: url('/css/image/illustration-hero.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.string h2{
+    text-align: center;
+}
+.string p{
+    padding-left: 27%;
+    padding-right: 21%;
+}
+.salery{
+    border: 1px solid black;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 35px;
+    height: 70px;
+    border-radius: 11px;
+    background-color: hsl(225deg 38.32% 93.62% / 60%);
+    margin-top: 10px;
+    border-color: transparent;
+    
+}
+.salery svg{
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.salery p{
+    width: 80px;
+    position: relative;
+    left: 82px;
+    top: -60px;
+}
+.salery a{
+    position: relative;
+    left: 80%;
+    bottom: 105px;
+}
+.button{
+    border: 1px solid black;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    border-color: transparent;
+}
+button{
+    width: 326px;
+    margin-left: 85px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 11px;
+    border-color: transparent;
+
+}
+.button-one{
+    background-color: hsl(245deg 62.95% 49.77%);
+    color: white;
+}
+.button-tow{
+    background-color: white;
+}
