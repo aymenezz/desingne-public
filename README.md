@@ -1,2 +1,1 @@
-![image first challenge] (https://github.com/aymenezz/desingne-public/blob/main/first_challonge/desktop-design.jpg)
-
+![alt text](https://github.com/aymenezz/desingne-public/blob/main/desktop-design.jpg?raw=true)
