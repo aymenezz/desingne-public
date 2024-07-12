@@ -7,7 +7,7 @@
 > this seconde challenge
 ![image seconde challenge](https://github.com/aymenezz/desingne-public/blob/main/sconde_challenge/picture.png)
 > this third challenge
-> ![image third challenge](https://github.com/aymenezz/desingne-public/blob/main/third_challenge/active-states.jpg)
+> ![image third challenge](https://github.com/aymenezz/desingne-public/blob/main/third_challenge/picture.png)
 > this six challenge
 ![six challenge](https://github.com/aymenezz/desingne-public/blob/main/six_challenge/active-states.jpg)
 > this seven challenge
