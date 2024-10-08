@@ -4,16 +4,24 @@ import Body from './components/Body';
 import UserContext from './components/userContext'
 
 function App() {
+  const [swich ,setswich ]=useState(false)
   const [cartitem,setcartitem]=useState([])
-    const getquantity=(id)=>{
-       
-        return cartitem.find((item)=>item.id === id)?.quantity ||0
-    }
 
+  const reducequantity=cartitem.reduce(
+    (quantity,item)=> item.quantity + quantity,0
+        )
+        
+  
+
+    const getquantity=(id)=>{
+        return cartitem.find((item)=>item.id === id)?.quantity || 0
+    }
 const increase =(id)=>{
+    setswich(true)
     setcartitem((currentitem)=>{
+        
         if(currentitem){
-            return [...currentitem,{id,quantity:1}]
+            return [...currentitem,{ id,quantity: 1 }]
         }else{
             return currentitem.map((item)=>{
                 // if(item.id=== id){
@@ -30,10 +38,11 @@ const increase =(id)=>{
 
 
 const plus=(id)=>{
+    
     setcartitem((currentitem)=>{
        return currentitem.map((item)=>{
         if(item.id=== id){
-            return {...item,quantity:item.quantity +1}
+            return {...item,quantity:item.quantity + 1}
         }else{
             return item
         }
@@ -84,11 +93,11 @@ const plus=(id)=>{
 
     const decreas=(id)=>{
         setcartitem((currentitem)=>{
-            if(currentitem.find((item)=> item.id === id) === null){
-                return currentitem.filter((item)=>item.id !== id);
+            if(currentitem.find((item)=> item.id === id ) === null){
+                return currentitem.filter((item)=> item.id !== id);
             }else{
                 return currentitem.map((item)=>{
-                    if(item.id ===id){
+                    if(item.id === id){
                         return {...item,quantity:item.quantity - 1 }
                     }else{
                         return item
@@ -106,7 +115,7 @@ const plus=(id)=>{
   return (
     <div>
     
-        <UserContext.Provider value={{cartitem,getquantity,increase,decreas,remove,plus}}>
+        <UserContext.Provider value={{cartitem,getquantity,increase,decreas,remove,plus,swich,setswich,reducequantity}}>
           <Body />
         </UserContext.Provider>
     

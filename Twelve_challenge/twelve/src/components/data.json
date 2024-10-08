@@ -6,7 +6,7 @@
      "image":"/image/image-waffle-desktop.jpg", 
      "thename":"Waffle" ,
      "discrption":"Waffle with Berries ",
-     "slarey":6.50,
+     "slarey":"6.50",
      "class":"order" 
 },
 {
@@ -16,7 +16,7 @@
     "image":"/image/image-creme-brulee-desktop.jpg" ,
     "thename":"Crème Brûlée" ,
     "discrption":"Vanilla Bean Crème Brûlée", 
-    "slarey":7.00 ,
+    "slarey":"7.00" ,
     "class":"order"
 },
 {
@@ -26,7 +26,7 @@
     "image":"/image/image-macaron-desktop.jpg", 
     "thename":"Mcaron" ,
     "discrption":"Mcaron Mix of Five",
-    "slarey":800 ,
+    "slarey":"8.00" ,
     "class":"oder"
 },
 {
@@ -36,7 +36,7 @@
     "image":"/image/image-tiramisu-desktop.jpg" ,
     "thename":"Tramisu" ,
     "discrption":"Cassic Tiramisu" ,
-    "slarey":550, 
+    "slarey":"5.50", 
     "class":"oder" 
 },
 {
@@ -46,7 +46,7 @@
     "image":"/image/image-baklava-desktop.jpg"  ,
     "thename":"Bklava" ,
     "discrption":"Pstachio Baklava" ,
-    "slarey":400 ,
+    "slarey":"4.00" ,
     "class":"oder"
 },
 {
@@ -56,7 +56,7 @@
     "image":"/image/image-meringue-desktop.jpg",
     "thename":"Pie" ,
     "discrption":"Lmon Meringue Pie'",
-    "slarey":500 ,
+    "slarey":"5.00" ,
     "class":"oder"
 },
 {
@@ -66,7 +66,7 @@
     "image":"/image/image-cake-desktop.jpg"  ,
     "thename":"Cake" ,
     "discrption":"Red Velvet Cake", 
-    "slarey":4.50 ,
+    "slarey":"4.50" ,
     "class":"order"
 },
 {
@@ -76,7 +76,7 @@
     "image":"/image/image-brownie-desktop.jpg",
     "thename":"Brownie" ,
     "discrption":"Salted Caramel Brownie" ,
-    "slarey":5.50 ,
+    "slarey":"5.50" ,
     "class":"order" 
 },
 {
@@ -86,7 +86,7 @@
     "image":"/image/image-panna-cotta-desktop.jpg",
     "thename":"Panna Cotta" ,
     "discrption":"Vanilla Panna Cotta" ,
-    "slarey":6.50,
+    "slarey":"6.50",
     "class":"order" 
 }
 

@@ -22,7 +22,11 @@ function Profil({id,column,rows,image,thename,discrption,slarey}){
             <div className="card" style={{gridColumn:column,gridRow:rows}} >
             
             <div className="card-item" >
-                <img src={image}/>
+                {/* <div className="image" style={{backgroundImage:`url(${image})`}}>
+                    hello
+                </div> */}
+                <img src={image} style={{borderRadius:'5px', width:'200px',height:'200px'}}/>
+
                {quantity === 0 ? <Button_one />: <Button_tow /> }
               
                     
@@ -30,7 +34,7 @@ function Profil({id,column,rows,image,thename,discrption,slarey}){
             <div className="string">
                 <span>{thename}</span>
                 <span>{discrption}</span>
-                <span className="slarey">{slarey}</span>
+                <span className="slarey">${slarey}</span>
             </div>
             </div>
             

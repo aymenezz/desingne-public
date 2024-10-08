@@ -15,13 +15,15 @@ body{
 .card{
     display: flex;
     border: 1px solid transparent;
-    height: 297px;
+    height: 138px;
     margin-left: 58px;
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     /* background-color: yellow; */
+   
 }
+
 .string{
     border: 1px solid transparent;
     width: 100%;
@@ -134,30 +136,63 @@ span{
     margin-top: 63px;
 }
 .mnue{
-    border: 1px solid transparent;
+    /* border: 1px solid transparent;
     height: 210px;
-    overflow-y:scroll;
+    overflow-y:scroll; */
+    border: 1px solid transparent;
+    height: auto;
    
 }
-
+.order-total{
+    border: 1px solid transparent;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+}
 ul{
     padding-left: 10px;
     padding-right: 10px;
 }
 li{
-    /* border: 1px solid black;
-    list-style: none; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 19px;
-    height: 25px;
-    border-width: 1px ;
+    height: 50px;
+    border-width: 1px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent #807f7f38 transparent;
     list-style: none;
     margin-bottom: 19px;
+    flex-direction: column;
+}
+.span-element{
+    display: inline-block;
+    margin-right: 7px;
+    color: hsl(15, 45%, 51%);
+
+    
+}
+.removed{
+    width: 24px;
+    border-radius: 56%;
+    border: 1px solid hsl(15, 45%, 51%);
+    background-color: white;
+    transform: translate(277px, -164%);
+    cursor: pointer;
+}
+.removed:hover{
+    border:1px solid hsl(20, 6%, 18%);
+}
+.exs{
+   color:  hsl(24deg 6.75% 62.85%);
 }
 
+.hash{
+
+    font-size: 14px;
+    margin-right: 0px;
+    color: inherit;
+}
 .hidde{
     display: none;
 }
