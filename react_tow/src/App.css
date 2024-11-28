@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+.div-input{
+    display: flex;
+    border: 1px solid transparent;
+    height: 75px;
+    justify-content: center;
+    background-color: #6F88FC;
+    box-shadow: 6px 11px 0px 5px hsl(0, 1%, 14%);
+}
+.small-div span{
+    font-size: 20px;
+}
+.swit-div{
+    display: flex;
+    background-color: white;
+    border: 1px solid transparent;
+    justify-content: center;
+}
+.swit-div button{
+    transform: translate(-20px, 19px);
+    width: 200px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background-color: #2abc6b;
+    color: white;
+}
+
+.small-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 156px;
+    /* text-wrap: auto; */
+    flex-direction: column;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    margin-right: 46px;
+    margin-top: 13px;
+    background-color: white;
+
+}
+.country{
+    margin-left: 108px;
+}
+.small-div:hover{
+    transition-duration: 1s ;
+    transform:scaleX(1.2);
+}
+.div-info{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.inp-text{
+    margin-top: 10px;
+    height: 25px;
+    width: 300px;
+    border-radius: 7px;
+    border-bottom: 1px solid transparent;
+    outline: transparent;
+    border-top: 1px solid transparent;
+    font-size: 20px;
+    background-color: #505050;
+    color: white;
+    transform: translate(10px, 10px );
+}
+label[for="search"]{
+    transform: translate(-289px, 24px);
+    font-size: 20px;
+    color: white;
+    transition-duration: 1s;
+}
+.inp-text:focus ~ label,
+
+.inp-text:not(:placeholder-shown) ~ label{
+    transform: translate(-289px, -3px);
+    color: black;
+
+    /* transform: translate(-289px, -3px);
+    color: black;
+    /* font-size: 10px; */
+    height: 0px; 
+    /* font-size: 10px; */
+}
+.cut{
+    position: absolute;
+    border: 1px solid transparent;
+    height: 15px;
+    width: 101px;
+    left: 460px;
+    top: 4px;
+    background-color: white;
+    border-radius: 7px;
+    visibility: hidden;
+    
+}
+.card-weather{
+    border: 1px solid transparent;
+    height: 490px;
+    width: 429px;
+    /* margin-left: 30%; */
+    margin-top: 21px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    z-index: 1;
+}
+.but-find{
+    position: relative;
+    height: 26px;
+    width: 71px;
+    margin-top: 20px;
+    /* margin-right: 8px; */
+    right: 66px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.but-find:hover{
+    background-color: #2abc6b;
+}
+/* .card-weather:hover{
+    perspective-origin: center;
+    transform: perspective(1000px) rotateX(81deg);
+} */
+.seasone {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 30px;
+    /* background-image: url('/public/weatherP/sun.png'); */
+    /* background-image: url('/public/weatherP/rainy-day.png'); */
+    z-index: 5;
+    border: 1px solid transparent;
+    height: 37%;
+    background-size: 42%;
+    background-repeat: no-repeat;
+}
+/* .card-weather:hover .seasone{
+    transform: translate(-200px,-100px);
+} */
+.inp-text:focus ~ .cut{
+    visibility: visible;
+    transition-duration: 1s;
+}
+.body{
+    display: flex;
+    border: 1px solid transparent;
+    height: 528px;
+    background-color: white;
+    justify-content: center;
+    /* background-image: url('/public/weatherP/bodyweather.jpg'); */
+    /* background: linear-gradient(80deg, black, transparent); */
+    /* animation-name: bodyanim;
+    animation-duration: 5s;
+    
+    animation-iteration-count: infinite; */
+}
+@keyframes bodyanim {
+    0%{
+        background: linear-gradient(40deg, black, transparent);  
+    }
+    25%{
+        background: linear-gradient(80deg, black, transparent);
+    }
+    50%{
+        background: linear-gradient(120deg, black, transparent);
+    }
+    100%{
+        background: linear-gradient(180deg, black, transparent);
+    }
+}
+/* .inp-text:invalid ~ label[for='search'] {
+    transform: translate(-289px, 24px);
+} */
