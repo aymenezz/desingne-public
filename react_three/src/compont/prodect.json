@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "name":"who moved my cheese",
+        "image":"picture/who_moved_my_cheese.jpg",
+        "price":2.5
+
+    },
+    {
+        "id":2,
+        "name":"The power of your subconscious mind",
+        "image":"picture/Power_the_of_your_mind.png",
+        "price":3.5
+    },
+    {
+        "id":3,
+        "name":"The 7 Habits of Highly Successful Teens",
+        "image":"picture/the_7_habits_of_highly_successful_teens.jpg",
+        "price":5.5
+    },
+    {
+        "id":4,
+        "name":"Crime and Punishment",
+        "image":"picture/crime_and_punishment.jpg",
+        "price":6.5
+    },
+    {
+        "id":5,
+        "name":"surrounded by idiots",
+        "image":"picture/surrounded_by_idiots.jpg",
+        "price":1.25
+    },
+    {
+        "id":6,
+        "name":"surrounded by psychopaths",
+        "image":"picture/surrounded_by_psychopaths.jpg",
+        "price":10.5
+    },
+    {
+        "id":7,
+        "name":"Atomic Habits",
+        "image":"picture/Atomic_Habits.jpg",
+        "price":10
+
+    }
+    
+
+]
+    
